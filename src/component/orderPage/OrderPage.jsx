@@ -3,7 +3,10 @@ import Button from "./Button";
 import { productData } from "../../products";
 import { useDispatch, useSelector } from "react-redux";
 import Avacado from "../../assets/Avocado Hass.jpg";
-import { addProduct, updateProductStatus } from "../../feature/order/OrderPage";
+import {
+  addProduct,
+  updateProductStatus,
+} from "../../feature/order/OrderPageSlice";
 import { ProductStatus } from "../../products";
 
 const ProductTableRow = ({ product, onUpdateStatus }) => {

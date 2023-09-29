@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import Button from "./Button";
-import { approveAllProducts } from "../../feature/order/OrderPage";
+import { approveAllProducts } from "../../feature/order/OrderPageSlice";
 
 const ApproveOrder = () => {
   const dispatch = useDispatch();
